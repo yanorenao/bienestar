@@ -1,5 +1,5 @@
 ---
-stepsCompleted: [1, 2, 3, 4]
+stepsCompleted: [1, 2, 3, 4, 5, 6]
 inputDocuments: ["docs/brainstorming/brainstorming-session-2026-03-02-094927.md"]
 date: 2026-03-02
 author: Yeison
@@ -83,3 +83,32 @@ Una plataforma web intuitiva que no solo ayuda a centralizar la información de 
 - **Costo de Adquisición de Clientes (CAC):** Mantener un CAC bajo durante la campaña para llegar a los primeros 1,000 usuarios orgánicos o mediante redes sociales.
 - **Usuarios Activos Mensuales (MAU):** Porcentaje de los 1,000 usuarios que inician sesión al menos una vez al mes para actualizar sus gastos o revisar sus micro-lecciones.
 - **Tasa de Retención a 90 días:** Porcentaje de usuarios que logran la meta de "3 meses de racha de ahorro" sobre el total de usuarios registrados.
+
+---
+
+## MVP Scope
+
+### Core Features (MVP)
+Para la versión inicial (MVP), nos centraremos en las funcionalidades estrictamente necesarias para que el usuario pueda empezar a gestionar sus deudas y recibir valor inmediato:
+- **Autenticación Simple:** Registro e inicio de sesión con correo electrónico (y opcionalmente Google/Apple).
+- **Ingreso Manual de Deudas (Formulario):** Interfaz sencilla y amigable para que el usuario ingrese sus saldos, tasas de interés y pagos mínimos actuales.
+- **Dashboard Visual:** Panel de control principal que muestre el resumen total de la deuda, el progreso de pago y una gráfica motivadora ("termómetro de deudas").
+- **Centro de Tips (Educación):** Sección con micro-lecciones y consejos prácticos contextualizados, entregados de forma sencilla y directa (como un *feed* de tarjetas).
+
+### Out of Scope for MVP
+Para asegurar un lanzamiento rápido y mantener bajo el costo de desarrollo inicial, las siguientes funcionalidades **NO** se incluirán en la primera versión:
+- Conexión automática con entidades bancarias (Open Banking / Scraping de cuentas).
+- Aplicaciones móviles nativas (iOS/Android) de descarga en tiendas (el MVP será una aplicación web responsive / PWA).
+- Foros comunitarios o perfiles sociales públicos.
+- Módulos avanzados de inversión.
+
+### MVP Success Criteria
+Sabremos que este MVP está listo para escalar a su siguiente fase cuando:
+- Logremos los primeros 1,000 usuarios registrados orgánicamente.
+- Validemos técnicamente que la arquitectura soporta el registro concurrente y el cálculo correcto de los dashboards de deuda.
+- Recopilemos feedback cualitativo positivo sobre la "facilidad de uso" (UX) del formulario manual.
+
+### Future Vision
+Si el modelo se valida con éxito, la plataforma evolucionará en los próximos 2 años hacia un modelo **B2B2C** (Beneficio para Empleados):
+- **Bienestar Financiero Corporativo:** La plataforma se empaquetará como un servicio o beneficio corporativo (Software as a Service - SaaS) que las empresas podrán comprar y ofrecer a sus empleados para mejorar su salario emocional y reducir el estrés financiero en la plantilla.
+- **Hub Financiero Integral:** Expansión desde la simple liquidación de deudas hacia la oferta de productos financieros preferenciales (refinanciamiento a tasas más bajas negociadas en bloque para las empresas cliente).
